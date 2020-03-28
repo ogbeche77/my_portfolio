@@ -45,3 +45,21 @@ header {
 .text-secondary {
   color: $secondary-color;
 }
+
+main {
+  padding: 4rem;
+  height: 100%;
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
+
+    }
+  }
+}
