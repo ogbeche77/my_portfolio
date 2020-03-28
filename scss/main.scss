@@ -8,4 +8,24 @@ body {
   background: $primary-color;
   color: #fff;
   height: 100%;
+  font-family: Tahoma, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+//Headings
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 300;
+
+  &.lg-heading {
+    font-size: 4rem;
+  }
+
+  &.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: lighten($primary-color, 4);
+  }
 }
