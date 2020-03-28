@@ -1,6 +1,11 @@
 $primary-color: #02acb5;
 $secondary-color: #000E18;
 
+@mixin easeOut {
+  transition: all 1.5s ease-out;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -58,6 +63,8 @@ main {
 
       &:hover {
         color: $secondary-color;
+        @include easeOut();
+
       }
 
     }
