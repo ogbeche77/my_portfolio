@@ -46,3 +46,7 @@ main {
       main .icons a:hover {
         color: #000E18;
         transition: all 1.5s ease-out; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }
