@@ -44,4 +44,5 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #000E18; }
+        color: #000E18;
+        transition: all 1.5s ease-out; }
