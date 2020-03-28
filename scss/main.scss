@@ -1,12 +1,35 @@
-$primary-color: #02acb5;
-$secondary-color: #000E18;
+$primary-color: #84A98C;
+$secondary-color: #E94F37;
 $show-home-image: true;
-$home-image: url(../img/img1.jpg);
-$background-opacity: 0.9;
+$home-image: url(../img/img4.jpeg);
+$background-opacity: 0.03;
 
 @mixin easeOut {
-  transition: all 1.5s ease-out;
+  transition: all 0.5s ease-out;
 
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($primary-color, $background-opacity);
+
+      }
+    }
+
+  }
 }
 
 * {
@@ -14,6 +37,7 @@ $background-opacity: 0.9;
 }
 
 body {
+  @include background;
   background: $primary-color;
   color: #fff;
   height: 100%;
@@ -35,7 +59,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 4), 0.5);
+    background: rgba(lighten($primary-color, 4), 0.01);
   }
 }
 
