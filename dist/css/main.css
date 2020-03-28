@@ -2,11 +2,24 @@
   box-sizing: border-box; }
 
 body {
-  background: #02acb5;
+  background: #84A98C;
   color: #fff;
   height: 100%;
   font-family: Tahoma, Verdana, sans-serif;
   line-height: 1.5; }
+  body#bg-img {
+    background: url(../img/img4.jpeg);
+    background-attachment: fixed;
+    background-size: cover; }
+    body#bg-img:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(132, 169, 140, 0.03); }
 
 h1,
 h2,
@@ -22,7 +35,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(2, 191, 201, 0.5); }
+    background: rgba(144, 177, 151, 0.01); }
 
 a {
   color: #fff;
@@ -34,7 +47,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #000E18; }
+  color: #E94F37; }
 
 main {
   padding: 4rem;
@@ -44,8 +57,8 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #000E18;
-        transition: all 1.5s ease-out; }
+        color: #E94F37;
+        transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
