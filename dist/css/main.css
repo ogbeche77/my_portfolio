@@ -35,3 +35,13 @@ header {
 
 .text-secondary {
   color: #000E18; }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: #000E18; }
