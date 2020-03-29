@@ -45,7 +45,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.7;
     visibility: hidden;
 
     &.show {
@@ -67,6 +67,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: darken($primary-color, 4);
+        list-style: none;
     }
 }
