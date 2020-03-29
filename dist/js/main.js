@@ -1,9 +1,9 @@
 // Select DOM Items
-const menuBtn = document.querySelector(".btn-menu");
+const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
-const navItem = document.querySelectorAll(".nav-items");
+const navItem = document.querySelectorAll(".nav-item");
 
 //State of the nemu/nav bar
 let showMenu = false;
@@ -17,7 +17,7 @@ function toggleMenu() {
     menuNav.classList.add("show");
     menuBranding.classList.add("show");
 
-    navItems.forEach(item => item.classList.add("show"));
+    navItem.forEach(item => item.classList.add("show"));
     //Set Menu State
     showMenu = true;
   } else {
@@ -25,7 +25,7 @@ function toggleMenu() {
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
-    navItems.forEach(item => item.classList.remove("show"));
+    navItem.forEach(item => item.classList.remove("show"));
 
     //Set Menu State
     showMenu = false;
