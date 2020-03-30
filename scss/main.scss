@@ -1,6 +1,5 @@
-@import 'config';
-@import 'menu';
-
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -51,7 +50,9 @@ header {
 main {
   padding: 4rem;
   //height: 100%;
-  min-height: calc(100vh -60px); //height of the page minus the px of the footer, it ensures footer sticks down
+  min-height: calc(
+    100vh -60px
+  ); //height of the page minus the px of the footer, it ensures footer sticks down
 
   .icons {
     margin-top: 1rem;
@@ -62,9 +63,7 @@ main {
       &:hover {
         color: $secondary-color;
         @include easeOut();
-
       }
-
     }
   }
 
@@ -81,8 +80,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    'bioimage bio bio'
-    'job1 job2 job3';
+    "bioimage bio bio"
+    "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -95,7 +94,6 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
-
   }
 
   .job-1 {
@@ -117,6 +115,25 @@ main {
   }
 }
 
+//Projects
+
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(2, 2fr);
+
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -125,5 +142,4 @@ main {
   height: 50px;
 }
 
-
-@import 'mobile';
+@import "mobile";
