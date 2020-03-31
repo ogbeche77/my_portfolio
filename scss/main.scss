@@ -50,9 +50,7 @@ header {
 main {
   padding: 4rem;
   //height: 100%;
-  min-height: calc(
-    100vh -60px
-  ); //height of the page minus the px of the footer, it ensures footer sticks down
+  min-height: calc(100vh -60px); //height of the page minus the px of the footer, it ensures footer sticks down
 
   .icons {
     margin-top: 1rem;
@@ -119,7 +117,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1.7rem;
   grid-template-columns: repeat(2, 2fr);
 
   img {
