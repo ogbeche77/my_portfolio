@@ -150,9 +150,27 @@ main {
     &:hover {
       padding: 0.5rem 1.5rem;
       background: black;
+
     }
   }
 }
+
+//Button Styles
+.btn-light {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
+
+
+
 
 #main-footer {
   text-align: center;
