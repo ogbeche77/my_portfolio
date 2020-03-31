@@ -143,7 +143,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc( 100vh -60px); }
+  min-height: calc(100vh -60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -182,7 +182,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1.7rem;
   grid-template-columns: repeat(2, 2fr); }
   .projects img {
     width: 100%;
@@ -198,6 +198,10 @@ main {
   background: #091012;
   color: #fff;
   height: 50px; }
+
+@media screen and (min-width: 1171px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
