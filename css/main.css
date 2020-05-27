@@ -184,10 +184,10 @@ main {
 .projects {
   display: grid;
   grid-gap: 1.7rem;
-  grid-template-columns: repeat(2, 2fr); }
+  grid-template-columns: repeat(3, 2fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 4px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #E94F37;
