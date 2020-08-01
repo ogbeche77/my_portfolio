@@ -13,6 +13,6 @@ Developed using SASS, Javascript & HTML. Currently hosted on Github Pages.
 
 
 # Free to Reuse
-You can fork the repository and use as a guide for your own perdonal portfolio too
+You can fork the repository and use as a guide for your personal portfolio.
  
 
