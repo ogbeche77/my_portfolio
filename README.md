@@ -1,18 +1,13 @@
 # https://kazeem-adetunji.de/
 
-This is [my personal portfolio website](https://kazeem-adetunji.de/) 
+This is [my personal portfolio website](https://kazeem-adetunji.de/)
 
-
-# Screenshots
-<p float="left">
- <img src="img/website.png" alt="projects" width="400">
-</p>
+<img src="img/website1.png" alt="screenshot">
 
 # Technology
-Developed using SASS, Javascript & HTML. Currently hosted on Github Pages. 
 
+Developed using SASS, Javascript & HTML. Currently hosted on Github Pages.
 
 # Free to Reuse
-You can fork the repository and use as a guide for your own perdonal portfolio too
- 
 
+You can fork the repository and use as a guide for your own perdonal portfolio too
