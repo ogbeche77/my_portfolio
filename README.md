@@ -1,4 +1,3 @@
-
 # https://kazeem-adetunji.de/
 
 This is [my personal portfolio website](https://kazeem-adetunji.de/)
@@ -7,11 +6,11 @@ This is [my personal portfolio website](https://kazeem-adetunji.de/)
 
 # Technology
 
-Developed using SASS, Javascript & HTML. Currently hosted on Github Pages.
+Developed using SASS, Javascript & HTML. And currently hosted on Github Pages.
 
 # Free to Reuse
 
-You can fork the repository and use as a guide for your own perdonal portfolio too
+You can fork the repository and use as a guide for your own personal portfolio too
 
 # Contact
 
