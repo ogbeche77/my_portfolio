@@ -6,7 +6,7 @@ This is [my personal portfolio website](https://kazeem-adetunji.de/)
 
 # Technology Used for development
 
-Developed using SASS, Javascript & HTML. And currently hosted on Github Pages.
+This website has been developed using SASS, Javascript & HTML. It's currently hosted on Github Pages.
 
 # Free to Reuse
 
